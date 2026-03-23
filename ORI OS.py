@@ -134,7 +134,16 @@ print("############ORION OS###########")
 print("###############################\n")
 
 def commands():
-    print("Programs:\ncalculator (calc)\nbrowser(browse)\nclear (clear or ctrl+L)\ncontrol host (syscontrol)\nsystem info (fastfetch)\nextra commands (extra)\nquit ORION OS (Ctrl+C)\ncommand list (--help)")
+
+    print("PLEASE REVIEW CODE BEFORE RUNNING SYSCONTROL OR FASTFETCH. COMMENTS REQUIRE READING."\n)
+    print("Programs:\ncalculator (calc)
+    \nbrowser(browse)
+    \nclear (clear or ctrl+L)
+    \ncontrol host (syscontrol) # Little to no compatibility on windows - untested/estimated
+    \nsystem info (fastfetch) # Unsure of compatibility on windows - untested/estimated
+    \nextra commands (extra)
+    \nquit ORION OS (Ctrl+C)
+    \ncommand list (--help)")
 
 print("Which program would you like to run? (run --help for a list of commands)")
 
